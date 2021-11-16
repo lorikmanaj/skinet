@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "tjp1coUqcswzn1ppDClHWYzTUjPMY5TT7+0P2WNrrthc1kn84i6YPbEy7PAVqUiMIDTl+qoZiD0hrsiYT9Ah0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\lorik\\Desktop\\Lori\\NgNc\\skinet\\API\\API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\lorik\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\lorik\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\lorik\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\lorik\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\lorik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\lorik\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
