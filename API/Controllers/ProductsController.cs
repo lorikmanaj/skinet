@@ -21,7 +21,7 @@ namespace API.Controllers
 
         [HttpGet]
         public string GetProducts() {
-            return "Get Prodss";
+            return "Get Prods";
         }
 
         [HttpGet("{id}")]
@@ -29,7 +29,7 @@ namespace API.Controllers
             return "single prod";
         }
 
-        // [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         // public IActionResult Error()
         // {
         //     return View("Error!");
