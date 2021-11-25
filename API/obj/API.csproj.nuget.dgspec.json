@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Lori\\Projects\\skinet\\API\\API.csproj": {}
+    "C:\\Users\\lorik\\Desktop\\Lori\\NgNc\\skinet\\API\\API.csproj": {}
   },
   "projects": {
-    "D:\\Lori\\Projects\\skinet\\API\\API.csproj": {
+    "C:\\Users\\lorik\\Desktop\\Lori\\NgNc\\skinet\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Lori\\Projects\\skinet\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\lorik\\Desktop\\Lori\\NgNc\\skinet\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "D:\\Lori\\Projects\\skinet\\API\\API.csproj",
+        "projectPath": "C:\\Users\\lorik\\Desktop\\Lori\\NgNc\\skinet\\API\\API.csproj",
         "packagesPath": "C:\\Users\\lorik\\.nuget\\packages\\",
-        "outputPath": "D:\\Lori\\Projects\\skinet\\API\\obj\\",
+        "outputPath": "C:\\Users\\lorik\\Desktop\\Lori\\NgNc\\skinet\\API\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
           "C:\\Users\\lorik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -44,6 +40,12 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.12, )"
+            },
             "Microsoft.EntityFrameworkCore.Sqlite": {
               "target": "Package",
               "version": "[5.0.12, )"
