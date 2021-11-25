@@ -4,7 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using API.Data;
+using API.Entities;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
 namespace API.Controllers
@@ -23,13 +25,17 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public string GetProducts() {
-            return "Get Prods";
+        public async Task<ActionResult<List<Product>>> GetProducts() 
+        {
+            var products = await _context.Products.ToListAsync();
+
+            return Ok(products);
         }
 
         [HttpGet("{id}")]
-        public string GetProduct(int id) {
-            return "single prod";
+        public async Task<ActionResult<Product>> GetProduct(int id) 
+        {
+            return await _context.Products.FindAsync(id);
         }
 
         //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
