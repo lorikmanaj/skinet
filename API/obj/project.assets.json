@@ -479,7 +479,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "Core": "1.0.0"
+          "Core": "1.0.0",
+          "Microsoft.EntityFrameworkCore.Sqlite": "5.0.12"
         },
         "compile": {
           "bin/placeholder/Infrastructure.dll": {}
@@ -1284,7 +1285,6 @@
     "net5.0": [
       "Infrastructure >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 5.0.12",
-      "Microsoft.EntityFrameworkCore.Sqlite >= 5.0.12",
       "Swashbuckle.AspNetCore >= 5.6.3"
     ]
   },
@@ -1334,10 +1334,6 @@
           "Microsoft.EntityFrameworkCore.Design": {
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
-            "target": "Package",
-            "version": "[5.0.12, )"
-          },
-          "Microsoft.EntityFrameworkCore.Sqlite": {
             "target": "Package",
             "version": "[5.0.12, )"
           },
