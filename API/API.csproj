@@ -5,13 +5,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.12" />
+=======
+>>>>>>> fe2059df4a8bb6072a9cfef0fa2f9917dbccf2c7
     <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="5.0.12">
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+<<<<<<< HEAD
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="5.0.12" />
+=======
+>>>>>>> fe2059df4a8bb6072a9cfef0fa2f9917dbccf2c7
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

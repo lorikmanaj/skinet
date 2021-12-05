@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "kEGhD7HQk5w1yp+VFmx0UMFu5MsVMsuKc6Z2DaNMXyoeEIZjTDehHeOo2TC6Qd+ZtzKPqX52W5+CynBB5X02Ig==",
+=======
+  "dgSpecHash": "aR3prn03tJoLDS/qaFMzxsVYjvWtwxh7lYbCBYbf41Pi4HBLNDMfpZx/sVWB8NH/43T49V8VsKZdfMl6mcUN+w==",
+>>>>>>> fe2059df4a8bb6072a9cfef0fa2f9917dbccf2c7
   "success": true,
-  "projectFilePath": "D:\\Lori\\Projects\\skinet\\API\\API.csproj",
+  "projectFilePath": "C:\\Users\\lorik\\Desktop\\Lori\\NgNc\\skinet\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lorik\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\lorik\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
